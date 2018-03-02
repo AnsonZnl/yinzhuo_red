@@ -1,0 +1,111 @@
+
+/*banner*/
+.banner {
+    margin-top: 1rem;
+}
+.banner a{
+    display: block;
+    width: 100%;
+}
+.banner .swiper-button-next1{
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    right: .1rem;
+    margin-top: -.34rem;
+    width: 0.45rem;
+    height: 1rem;
+    background: url(../images/banner_next.png) no-repeat;
+    background-size: 100%;
+}
+.banner .swiper-button-prev1{
+    z-index:2;
+    position: absolute;
+    top:50%;
+    left:.1rem;
+    margin-top: -.34rem;
+    width: .45rem;
+    height:1rem;
+    background: url("../images/banner_prev.png") no-repeat;
+    background-size: 100%;
+}
+/*icon_list*/
+.icon_list .swiper-container{
+    height: 1.5rem;
+    width: 85%;
+}
+.icon_list .swiper-wrapper{
+    width: 80%;
+}
+.icon_list .swiper-container .swiper-slide{
+    width: 17%;
+}
+.icon_list .swiper-container .swiper-slide a{
+    display: inline-block;
+    width: 100%;
+}
+.icon_list .swiper-button {
+    position: relative;
+    top: -.5rem;
+}
+.icon_list .swiper-button-next{
+    width: .28rem;
+    height: .7rem;
+    position: absolute;
+    top: -.32rem;
+    right: .05rem;
+    background: url("../images/next.png") no-repeat;
+    background-size: 100%;
+}
+.icon_list .swiper-button-prev{
+    width: .28rem;
+    height: .7rem;
+    position: absolute;
+    left: .1rem;
+    top: -.32rem;
+    background: url("../images/prev.png") no-repeat;
+    background-size: 100%;
+}
+.icon_list .swiper-slide span{
+    position: absolute;
+    z-index: 4;
+    height: .3rem;
+    width: 100%;
+    text-align: center;
+    display: block;
+    background: #fff;
+    color: #a5a5a5;
+    font-size: .23rem;
+}
+/*.main*/
+.main .col-4 i{
+    position: absolute;
+    top: .03rem;
+    left: .1rem;
+    display: inline-block;
+    width: .3rem;
+}
+.main .col-4 i img{
+    display: block;
+    width: 100%;
+}
+.main .col-4 span{
+    margin-top:-.4rem;
+    position: relative;
+    display: block;
+    height: .36rem;
+    line-height: .36rem;
+    font-size: .23rem;
+    color: #fff;
+    text-align: center;
+}
+/*index*/
+.index .col-3 img{
+    height: 1.3rem;
+}
+.index .noright{
+    border-right: none;
+}
+.index .noleft{
+    border-left: none;
+}

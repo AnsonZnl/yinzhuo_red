@@ -1,0 +1,101 @@
+/*加盟信息 品牌介绍 公共样式*/
+.nav_box ul li{
+    float: left;
+    width: 24.5%;
+    height: .65rem;
+    line-height: .65rem;
+    border-radius: 4px 4px 0 0;
+    border: #c21f1f 1px solid;
+    text-align: center;
+    color: #c21f1f;
+    font-size: .3rem;
+    border-bottom: solid #c21f1f 3px;
+}
+.list_box .nav_active{
+    background: #c21f1f;
+    color: #fff;
+}
+.box0{
+    width: 89%;
+    padding: .3rem;
+    border: #c21f1f 1px solid;
+}
+.box1 h3{
+    margin-top: 7px;
+    margin-bottom: 7px;
+    padding: .1rem;
+    background:linear-gradient(to right,#ecb9b9,#fff);
+    color: #c21f1f;
+    font-size: .3rem;
+}
+.box1 strong{
+    font-size: .28rem;
+    line-height: .45rem;
+}
+.box1 p{
+    font-size: .25rem;
+    line-height: .4rem;
+}
+/*franchises 加盟信息*/
+.franchises-main .box1 .alert{
+    padding: .3rem;
+    margin-bottom: .3rem;
+    color: #31708f;
+    background-color: #d9edf7;
+    border:solid 1px #bce8f1;
+    border-radius: .1rem;
+}
+.franchises-main .alert .title{
+    width: 50%;
+    color: #31708f;
+    font-size: .25rem;
+    font-weight: 900;
+    font-family: '微软雅黑';
+}
+.franchises-main .alert ol{
+    width: 49%;
+}
+.franchises-main .alert ol li{
+    font-size: .23rem;
+    margin-bottom: .1rem;
+    color: #31708f;
+}
+.franchises-main .box2{
+    float: left;
+    margin-bottom: 10px;
+}
+.franchises-main .ml1rem{
+    margin-right: .1rem;
+}
+/* brand 品牌介绍*/
+.brand-main .box2{
+    float: left;
+    margin-bottom: 10px;
+}
+.brand-main .ml1rem{
+    margin-right: .1rem;
+}
+.brand-main p,span{
+    line-height: .4rem;
+    font-size: .25rem;
+}
+.brand-main .brand-box{
+    border: #c21f1f 1px solid;
+    border-radius: 5px;
+    padding: .23rem;
+    color: #c21f1f;
+    font-size: .27rem;
+}
+.brand-main .brand-txt{
+    color: #c21f1f;
+    font-size: .27rem;
+}
+.brand-main .color1{
+    color:#fc8686;
+}
+.brand-main .color2{
+    color:#1160b4;
+}
+.brand-main .color3{
+    color:#ff6248;
+}

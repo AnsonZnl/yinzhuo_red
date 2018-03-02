@@ -1,0 +1,33 @@
+
+.store-main h4{
+    font-size: .33rem;
+    margin-bottom: .5rem;
+    color: #333;
+    font-weight: 200;
+}
+.store-main .store_result_list{
+    border-bottom: solid #ddd 1px;
+    padding-bottom: .2rem;
+    margin-bottom: .3rem;
+}
+.store-main .btn{
+    display: inline-block;
+    background-color: #c21f1f;
+    color: #FFFFFF;
+    padding: .05rem .14rem;
+    margin-right: .21rem;
+    margin-bottom: .15rem;
+}
+.store-main a{
+    padding-top: 0.05rem;
+    display: inline-block;
+    width: 95%;
+    background: url("../images/next2.png") no-repeat top right;
+    background-size: .2rem;
+    color: #333;
+}
+.store-main .store_result_list .phone_num{
+    background: none;
+    width: 80%;
+    font-size: .25rem;
+}

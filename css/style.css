@@ -1,0 +1,165 @@
+/*公共样式*/
+/*字体*/
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: Arial, "微软雅黑", "宋体", sans-serif;
+    font-size: .22rem;
+}
+p,span{
+    font-size: .24rem;
+}
+a{
+    text-decoration: none;
+    color: #c21f1f;
+}
+li{
+    list-style: none;
+}
+img{
+    display: block;
+    width: 100%;
+}
+.active{
+    background: url("../images/nav_active.gif");
+    color: #0e7ac0!important;
+}
+.noright{
+    border-right: none!important;
+}
+.noleft{
+    border-left: none!important;
+}
+/*布局*/
+
+.container{
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.con1{
+    margin-top: 1rem;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.bolck{
+    display: block;
+}
+.inline-block{
+    display: inline-block;
+}
+.clearfix::before,
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.mb20{
+    margin-bottom: 20px;
+}
+.mbd3rem{
+    margin-bottom: .3rem;
+}
+.w100{
+    width: 100%;
+}
+.w50{
+    width: 49%;
+}
+.col-4{
+    width: 30%;
+    padding: .1rem;
+    float: left;
+}
+.col-3{
+    width: 24%;
+    float: left;
+    padding: 0;
+    border:solid #c3cacf 2px;
+}
+/*header*/
+.navbar-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 1rem;
+    width: 100%;
+    background: #c21f1f;
+    z-index: 999999;
+    border-bottom: solid 2px #940400;
+}
+.navbar-header .logo{
+    width: 32%;
+    padding-top: .13rem;
+}
+.navbar-header .header_right{
+    width: 1.22rem;
+    margin-top: .01rem;
+    float: right;
+}
+.nav{
+    position: relative;
+}
+.nav .box{
+    display: block;
+    position: absolute;
+    top: 1rem;
+    right: 0;
+    width: 3rem;
+    border: solid 1px #940400;
+}
+.nav  .none{
+    display: none;
+}
+.nav .box a{
+    display: block;
+    height: .8rem;
+    line-height: .8rem;
+    background: #c21f1f;
+    color: #fff;
+    font-size: .26rem;
+    text-align: center;
+    border-bottom:solid 1px #940400;
+}
+/*page-header*/
+.page-header{
+    padding-top: .3rem;
+    padding-bottom: .4rem;
+    margin-left: .3em;
+}
+.page-header h1{
+    margin-bottom: .1rem;
+    font-weight: 200;
+    font-size: .7rem;
+}
+.page-header small{
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: .4rem;
+    color: #777;
+}
+.contacts span{
+    font-size: .29rem;
+    font-family: '微软雅黑';
+    height: .39rem;
+    line-height: .41rem;
+}
+/*footer*/
+.footer{
+    background-color: #E4E9EE;
+    color: #939393;
+    text-align: center;
+    padding: 12px 0;
+}
+.footer .copyright img{
+    display: inline-block;
+    width: 0.3rem;
+    margin-bottom: -0.05rem;
+    margin-right: 0.05rem;
+}

@@ -1,0 +1,90 @@
+/*联系我们 招聘信息 公共样式*/
+.nav_box ul li{
+    float: left;
+    width: 49.3%;
+    height: .65rem;
+    line-height: .65rem;
+    border-radius: 4px 4px 0 0;
+    border: #c21f1f 1px solid;
+    text-align: center;
+    color: #c21f1f;
+    font-size: .3rem;
+    border-bottom: solid #c21f1f 3px;
+}
+.list_box .nav_active{
+    background: #c21f1f;
+    color: #fff;
+}
+.box0{
+     width: 89%;
+     padding: .3rem;
+     border: #c21f1f 1px solid;
+ }
+.box1 h3{
+    margin-top: 7px;
+    margin-bottom: 7px;
+    padding: .1rem;
+    background:linear-gradient(to right,#ecb9b9,#fff);
+    color: #c21f1f;
+    font-size: .3rem;
+}
+/*联系我们*/
+.contacts-main .txt-color{
+    color: #c21f1f;
+    font-size: .25rem;
+}
+.contacts-main .alert ol{
+    width: 49%;
+}
+.contacts-main .alert ol li{
+    font-size: .22rem;
+    margin-bottom: .1rem;
+    color: #ecb9b9;
+}
+.contacts-main .box1 .qa-item>.text{
+    padding-top: .4rem;
+    padding-bottom: .4rem;
+    line-height: .4rem;
+    font-size: .26rem;
+    color: #333;
+}
+.contacts-main .box1 .qa-item>.title{
+    height: .55rem;
+    line-height: .55rem;
+    font-size: .28rem;
+    color: #c21f1f;
+    background: #e2f5ff;
+}
+.contacts-main .box1 .qa-item span{
+    display: inline-block;
+    width: .55rem;
+    text-align: center;
+    font-size: .31rem;
+    color: #fff;
+    background: #c21f1f;
+}
+/*招聘信息*/
+.recruit-main .alert ol{
+    width: 49%;
+}
+.recruit-main .alert ol li{
+    font-size: .22rem;
+    margin-bottom: .1rem;
+    color: #ecb9b9;
+}
+.recruit-main .row .col-3{
+    padding-top: .1rem;
+    padding-bottom: .1rem;
+    background: #c21f1f;
+    text-align: center;
+}
+.recruit-main .row .col-3 img{
+    width: .7rem;
+    margin-bottom: .1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.recruit-main .row .col-3 a{
+    color: #fff;
+}

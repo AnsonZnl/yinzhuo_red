@@ -1,0 +1,74 @@
+.form_strong a{
+    color: #d52b2a;
+    font-weight: 200;
+    font-size: .4rem;
+}
+ form label{
+    margin-bottom: .15rem;
+    display: block;
+    color: #000;
+    font-size: .28rem;
+    font-weight: bold;
+}
+ form>input{
+    display: block;
+    width: 93%;
+    height: .51rem;
+    padding: .1rem .2rem;
+    font-size: .27rem;
+    line-height: .51rem;
+    margin-bottom: .2rem;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+ form>textarea{
+    display: block;
+    width: 93%;
+    height: 3rem;
+    padding: .1rem .2rem;
+    font-size: .27rem;
+    line-height: .51rem;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+ form .checkbox1{
+    width: .3rem;
+    height: .3rem;
+    margin-right: 0.1rem;
+    display: inline-block;
+}
+ form .form-box1{
+    height: .5rem;
+    position: relative;
+}
+ form .form-box1 .checkbox1{
+    position: absolute;
+    top: 0;
+}
+ form .form-box1 span{
+    position: absolute;
+    top: 0;
+    left: .45rem;
+}
+ form p{
+    font-size: .25rem;
+    color: #333;
+}
+ form .submit{
+    display: block;
+    margin: auto;
+    width: 2rem;
+    height: .7rem;
+    line-height: .7rem;
+    color: #fff;
+    font-size: .3rem;
+    background: #c21f1f;
+    border-radius: 5px;
+    border:none;
+}

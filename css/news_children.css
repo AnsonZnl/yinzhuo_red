@@ -1,0 +1,70 @@
+
+.page-header{
+    padding-top: .3rem;
+    padding-bottom: .4rem;
+    margin-left: .3em;
+}
+.page-header h1{
+    margin-bottom: .1rem;
+    font-weight: 200;
+    font-size: .7rem;
+}
+.page-header small{
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: .4rem;
+    color: #777;
+}
+
+.pagination ul{
+    margin-left: .03rem;
+}
+.pagination ul li {
+    float: left;
+}
+.pagination ul li a{
+    height: .4rem;
+    line-height: .4rem;
+    display: block;
+    padding: .08rem .2rem;
+    border: solid #ccc 1px;
+    border-right: none;
+}
+.promotion_children .btn a {
+    display: inline-block;
+    width: .98rem;
+    height: .4rem;
+    line-height: .45rem;
+    border: 1px solid #c21f1f;
+    font-size: .25rem;
+    text-align: center;
+    border-radius: 4px;
+}
+.promotion_children .btn span {
+    display: inline-block;
+    line-height: .5rem;
+    font-size: .3rem;
+    color: #c21f1f;
+    margin-right: .1rem;
+}
+
+/*子页面*/
+.promotion_children{
+    border: 1px solid #c21f1f;
+    padding: .3rem;
+}
+.promotion_children h3{
+    font-size: .35rem;
+    font-weight: 500;
+    line-height: .6rem;
+    color: #c21f1f;
+}
+.promotion_children strong{
+    font-size: .32rem;
+    color: #333;
+    margin-bottom: .1rem;
+}
+.promotion_children p{
+    font-size: .29rem;
+    color: #333;
+}

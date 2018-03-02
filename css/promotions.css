@@ -1,0 +1,48 @@
+
+.page-header{
+    padding-top: .3rem;
+    padding-bottom: .4rem;
+    margin-left: .3em;
+}
+.page-header h1{
+    margin-bottom: .1rem;
+    font-weight: 200;
+    font-size: .7rem;
+}
+.page-header small{
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: .4rem;
+    color: #777;
+}
+
+.pagination ul{
+    margin-left: .05rem;
+}
+.pagination ul li {
+    float: left;
+}
+.pagination ul li a{
+    height: .4rem;
+    line-height: .4rem;
+    display: block;
+    padding: .08rem .2rem;
+    border: solid #ccc 1px;
+    border-right: none;
+    font-size: .24rem;
+}
+.page_left {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-left: solid #ccc 1px;
+}
+.pages_right {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-right: solid #ccc 1px !important;
+}
+.pages_active{
+    background: #c21f1f;
+    color: #fff;
+    border-radius: 0;
+}

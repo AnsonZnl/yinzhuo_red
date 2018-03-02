@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>大连罗森</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name='viewport' content="width=device-width,initial-scale=1.0,user-scalable=no,
+	      maximum-scale=1.0,
+	      minimum-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/css/swiper.css">
+</head>
+<body>
+	<div class="navbar-header">
+		<div class="logo fl">
+            <a href="index.html"><img src="images/m.logo.png" alt=""></a>
+        </div>
+		<div class="nav fr">
+			<div class="header_right" id="js_nav"><img src="images/m.ri.jpg" alt=""></div>
+            <div class="box none" id="js_box">
+                <ul>
+                    <li><a href="promotions.html">促销活动</a></li>
+                    <li><a href="news.html">热门情报</a></li>
+                    <li><a href="store.html">店铺地址</a></li>
+                    <li><a href="franchises.html">加盟信息</a></li>
+                    <li><a href="recruit.html">招聘信息</a></li>
+                    <li><a href="brand.html">品牌介绍</a></li>
+                    <li><a href="dealers.html">供应商咨询</a></li>
+                    <li><a href="contacts.html">联系我们</a></li>
+                </ul>
+            </div>
+		</div>
+	</div>
+    <div class="banner mbd3rem">
+        <div class="swiper-container swiper-container1">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href=""><img src="images/banner_kv%202.jpg" alt=""></a>
+                </div>
+                <div class="swiper-slide">
+                    <a href=""><img src="images/banner_kv.jpg" alt=""></a>
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination swiper-pagination1"></div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next1"></div>
+            <div class="swiper-button-prev1"></div>
+        </div>
+    </div>
+    <div class="icon_list mbd3rem">
+        <div class="swiper-container swiper-container2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><a href="">
+                    <img src="images/m2.jpg" alt="">
+                    <span>促销活动</span>
+                </a></div>
+                <div class="swiper-slide"><a href="">
+                    <img src="images/m4.jpg" alt="">
+                    <span>热门情报</span>
+                </a></div>
+                <div class="swiper-slide"><a href="">
+                    <img src="images/m5.jpg" alt="">
+                    <span>店铺地址</span>
+                </a></div>
+                <div class="swiper-slide"><a href="">
+                    <img src="images/m6.jpg" alt="">
+                    <span>加盟信息</span>
+                </a></div>
+                <div class="swiper-slide"><a href="">
+                    <img src="images/m7.jpg" alt="">
+                    <span>招聘信息</span>
+                </a></div>
+                <div class="swiper-slide"><a href="">
+                    <img src="images/m8.jpg" alt="">
+                    <span>品牌介绍</span>
+                </a></div>
+                <div class="swiper-slide"><a href="">
+                    <img src="images/m9.jpg" alt="">
+                    <span>供应商咨询</span>
+                </a></div>
+                <div class="swiper-slide"><a href="">
+                    <img src="images/m10.jpg" alt="">
+                    <span>联系我们</span>
+                </a></div>
+            </div>
+    </div>
+        <div class="swiper-button">
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+    <div class="main mbd3rem">
+        <div class="container clearfix">
+            <div class="col-4">
+                <img src="images/inc1.jpg" alt="">
+                <span>加盟合作</span>
+            </div>
+            <div class="col-4">
+                <img src="images/inc2.jpg" alt="">
+                <span>店铺检索</span>
+            </div>
+            <div class="col-4">
+                <img src="images/inc3.jpg" alt="">
+                <span>商品特辑</span>
+            </div>
+        </div>
+    </div>
+    <div class="index mbd3rem">
+        <div class="container clearfix">
+            <div class="col-3"><img src="images/a1.jpg" alt=""></div>
+            <div class="col-3 noleft noright"><img src="images/a2.jpg" alt=""></div>
+            <div class="col-3 noright"><img src="images/a3.jpg" alt=""></div>
+            <div class="col-3"><img src="images/a4.jpg" alt=""></div>
+        </div>
+
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="copyright">
+                <p>© DALIAN LAWSON CO.,LTD.</p>
+                <p>辽ICP备16002246号</p>
+                <p><img src="images/icp.png" alt="">辽公网安备 21020202000123号</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/js/swiper.js"></script>
+	<script src="js/fontSizeSet.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+        var swiper = new Swiper('.banner .swiper-container1', {
+            slidesPerView: 1,
+            autoplay:true,
+            spaceBetween: 30,
+            paginationClickable: true,
+            loop: true,
+            pagination: {
+                el: '.banner .swiper-pagination1',
+                clickable: true,
+                clickableClass:".banner .swiper-pagination1"
+            },
+            navigation: {
+                nextEl: ('.swiper-button-next1'),
+                prevEl: ('.swiper-button-prev1'),
+            },
+        });
+        var swiper = new Swiper('.icon_list .swiper-container2', {
+            slidesPerView: 4,
+            spaceBetween: 10,
+            slidesPerGroup: 4,
+            paginationClickable: true,
+            pagination: {
+                el: '.icon_list .swiper-pagination2',
+                clickable: false,
+                clickableClass:".swiper-pagination2"
+            },
+            loop: true,
+            loopFillGroupWithBlank: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+</body>
+</html>
