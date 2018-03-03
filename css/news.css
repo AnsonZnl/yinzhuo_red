@@ -1,4 +1,7 @@
-
+a {
+    text-decoration: none;
+    color: #c21f1f;
+}
 .news-main .item-box{
     padding: .3rem;
     border: 1px solid #c21f1f;

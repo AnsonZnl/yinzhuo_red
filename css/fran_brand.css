@@ -67,6 +67,20 @@
 .franchises-main .ml1rem{
     margin-right: .1rem;
 }
+.franchises-main .addMy{
+    display: block;
+    width: 80%;
+    height: .65rem;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: .65rem;
+    font-size: .25rem;
+    text-align: center;
+    color: #fff;
+    background: #c21f1f;
+    border-radius: 5px;
+}
+
 /* brand 品牌介绍*/
 .brand-main .box2{
     float: left;
@@ -91,7 +105,7 @@
     font-size: .27rem;
 }
 .brand-main .color1{
-    color:#fc8686;
+    color:#315b9e;
 }
 .brand-main .color2{
     color:#1160b4;
