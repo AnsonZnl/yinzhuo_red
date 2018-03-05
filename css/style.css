@@ -23,8 +23,7 @@ img{
     width: 100%;
 }
 .active{
-    background: url("../images/nav_active.gif");
-    color: #0e7ac0!important;
+     background-color: #960000!important;
 }
 .noright{
     border-right: none!important;
