@@ -47,3 +47,6 @@ a {
     text-align: center;
     border-radius: 4px;
 }
+.news-main .item-box img{
+    height: .9rem;
+}

@@ -80,7 +80,9 @@
     background: #c21f1f;
     border-radius: 5px;
 }
-
+.franchises-main .box2 img{
+    height: 2rem;
+}
 /* brand 品牌介绍*/
 .brand-main .box2{
     float: left;
